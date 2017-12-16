@@ -38,7 +38,7 @@ function Scene_Preloader(){
 	var barEase = 0.9;
 
 	// Loading text
-	var text = new PIXI.Text("loading... 0%", {font:"25px Poppins", fill:"#4C4C4C", align:"center"});
+	var text = new PIXI.Text(textStrings["loading"] + " 0%", {font:"25px Poppins", fill:"#4C4C4C", align:"center"});
     text.anchor.x = 0.5;
     text.anchor.y = 0.5;
     text.x = bar.x;
@@ -109,7 +109,7 @@ function Scene_Preloader(){
 
 	}, function(ratio){
 		var percent = Math.floor(ratio*100);
-		text.text = "loading... "+percent+"%";
+		text.text = textStrings["loading"]+" "+percent+"%";
 	}, false);
 
 }

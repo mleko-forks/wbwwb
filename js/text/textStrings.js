@@ -102,6 +102,8 @@ var textStrings_EN = {
     
     // (quote0004.png)
     "misatrributed"      : "(misattributed)" ,
+
+    "loading"            : "loading..."
 };
 
 // Umlaut codes: Ä = \xC4, Ö = \xD6, Ü = \xDC, ä = \xE4, ö = \xF6, ü = \xFC, ß = \x
@@ -516,5 +518,3 @@ var textStrings_SV = {
     // (quote0004.png)
     "misatrributed"      : "(felciterad)" ,
 };
-
-var textStrings = textStrings_EN

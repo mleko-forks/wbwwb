@@ -3,19 +3,25 @@
 		<link rel="stylesheet" href="css/game.css">
 	</head>
 	<body>
-		<div id="stage"></div>
+		<div id="stage">
+			<div id="credits">
+				<a target="_blank" href="http://ncase.itch.io/wbwwb">Wersja oryginalna</a>
+				-
+				<a target="_blank" href="http://ncase.me/">Nicky Case</a>
+			</div>
+		</div>
 		<div id="modal_shade"></div>
 		<div class="overlay" id="warning">
 			<div>oh noes</div>
 			<div>
-			your browser doesn't support webgl.<br>
-			try a different browser or computer?
+				twoja przeglądarka nie wspiera webgl<br>
+				spróbuj innej przeglądarki lub komputera
 			</div>
 		</div>
 		<div class="overlay" id="paused">
-			<div>paused</div>
+			<div>pauza</div>
 			<div>
-			click anywhere to resume
+			kliknij gdziekolwiek by wznowić
 			</div>
 		</div>
 	</body>
@@ -31,7 +37,9 @@
 <script src="js/lib/helpers.js"></script>
 
 <!-- Text Strings -->
-<script src="js/textStrings.js"></script>
+<script src="js/text/text_pl.js"></script>
+<script src="js/text/textStrings.js"></script>
+<script src="js/text/select.js"></script>
 
 <!-- Core Engine Code -->
 <script src="js/core/Game.js"></script>
