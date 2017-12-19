@@ -80,6 +80,7 @@ var textStrings_FR = {
 
     // (preload_play.png)
     "playButton"         : "JOUER" ,
+    "loading..."         : "loading...",    //@todo translate
 
     // (end_button.png) Post Credits
     "otherWorkButton"    : "mes autres réalisations" ,

@@ -82,6 +82,7 @@ var textStrings_SV = {
 
     // (preload_play.png)
     "playButton"         : "SPELA" ,
+    "loading..."         : "loading...",    //@todo translate
 
     // (end_button.png) Post Credits
     "otherWorkButton"    : "see mina andra verk" ,

@@ -82,6 +82,7 @@ var textStrings_DE = {
 
     // (preload_play.png)
     "playButton"         : "START" ,
+    "loading..."         : "loading...",    //@todo translate
 
     // (end_button.png) Post Credits
     "otherWorkButton"    : "andere Projekte" ,

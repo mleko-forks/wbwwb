@@ -77,6 +77,7 @@ var textStrings_PL = {
 
     // (preload_play.png)
     "playButton"         : "GRAJ" ,
+    "loading..."         : "ładowanie...",    //@todo translate
 
     // (end_button.png) Post Credits
     "otherWorkButton"    : "zobacz moje inne dzieła" ,
